@@ -1,0 +1,15 @@
+.sidebar {
+    overflow-y: scroll;
+}
+.header {
+    text-align: center;
+    margin-left: 10px;
+    color: #00bcd4;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.logoSidebarContainer{
+    display: flex;
+    align-items: center;
+}

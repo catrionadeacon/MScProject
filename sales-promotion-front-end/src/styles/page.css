@@ -1,0 +1,62 @@
+.page {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.pageTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}
+
+.titleSeparator{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(139, 139, 139);
+}
+
+.pageTitleIcon{
+    font-size: 22px;
+    color: #00bcd4;
+    margin-right: 15px;
+}
+
+.pageTop{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.pageCentre{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titleAndTabs{
+    display: flex;
+    flex-direction: column;
+}
+
+.subTitle{
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+    font-weight: 500;
+}
+
+.pageTopContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pageBottom{
+    display: flex;
+    margin: 40px;
+}
+

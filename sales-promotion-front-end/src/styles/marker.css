@@ -1,0 +1,62 @@
+.marker{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px; 
+    font-size: 14px;
+    align-items: center;
+}
+
+.marker.RETRO{
+    background-color: #e7f5f3;
+    color: #00d4bb;  
+}
+
+.marker.OID{
+    background-color: #e7eef5;
+    color: #007cd4;
+}
+
+.marker.APPROVED{
+    background-color: #e7f5ed;
+    color: #00d46d; 
+}
+
+.marker.REJECTED{
+    background-color: #fce7e3;
+    color: #d14d39; 
+}
+
+.marker.PENDING{
+    background-color: #f5f0e7;
+    color: #d49b00; 
+}
+
+.marker.AWAITING_APPROVAL{
+    background-color: #f5f0e7;
+    color: #d49b00; 
+}
+
+.marker.MATCHED{
+    background-color: #e7f5ed;
+    color: #00d46d; 
+}
+
+.marker.UNMATCHED{
+    background-color: #fce7e3;
+    color: #d14d39; 
+}
+
+.marker.AWAITING_CHANGE{
+    background-color: #f5f0e7;
+    color: #d49b00; 
+}
+
+.marker.CHANGED_IN_SAGE{
+    background-color: #e7eef5;
+    color: #007cd4;
+}
+
+.marker.COMPLETE{
+    background-color: #e7f5ed;
+    color: #00d46d; 
+}

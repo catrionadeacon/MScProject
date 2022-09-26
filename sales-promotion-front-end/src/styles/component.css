@@ -1,0 +1,140 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px 20px;
+    box-shadow: 0 2px 20px 7px #eff2f2;
+    border-left: 8px solid #00bcd4;
+    border-radius: 10px;
+}
+
+.loginComponent {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 200px 20px;
+    box-shadow: 0 2px 20px 7px #eff2f2;
+    border-left: 8px solid #00bcd4;
+    border-radius: 10px;
+}
+
+.componentTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(107, 107, 107);
+    margin-left: 15px;
+}
+
+.componentSubTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+    margin-left: 15px;
+}
+
+.componentTitleIcon {
+    font-size: 20px;
+    color: #00bcd4;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.subTitleContainer {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #00bcd4;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    margin: 0px 20px;
+}
+
+.tableComponent {
+    margin: 0px 30px;
+    box-shadow: 0 2px 20px 7px #eff2f2;
+}
+
+.detailsTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(161, 161, 161);
+}
+
+.detailsItem{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    color: rgb(134, 134, 134);
+}
+
+.detailsItemText{
+    font-size: 15px;
+}
+
+.detailsHeaderText{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+.detailsList{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.detailsListBorder{
+    list-style-position: inside;
+    padding-left: 0;
+    padding-right: 50px;
+    margin-right: 50px;
+    border-right: 1px solid #00bcd4;
+}
+
+.detailsItemIcon{
+    font-size: 16px;
+    color: #00bcd4;
+    padding-right: 10px;
+}
+
+.detailsTitleContainer{
+    margin-top: 30px;
+}
+
+.detailsTopRow{
+    display: flex;
+}
+
+.customerItem{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #00bcd4;
+    padding: 25px 5px;
+}
+
+.customerText{
+    color: rgb(110, 110, 110);
+    width:200px;
+}
+
+.pricebookButton{
+    width: 1000px;
+    display: flex;
+    justify-content: end;
+}
+
+.detailsSectionContainer{
+    display: flex;
+}

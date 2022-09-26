@@ -1,0 +1,113 @@
+.wrapForm{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.formItem{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 35px;
+}
+
+.formItemDate{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 35px;
+}
+
+.formItemNumber{
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 35px;
+}
+
+.formLabel{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(161, 161, 161);
+}
+
+.formInput{
+    height: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #00bcd4;
+    width:100%;
+}
+
+.formSelect{
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid #00bcd4;
+    background-color: white;
+    color: grey;
+}
+
+.formRadio{
+    display: flex;
+}
+
+.formRadioItem{
+    margin: 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.formCheckboxItem{
+    margin-top: 32px;
+}
+
+.checkboxLabel{
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+    margin-left: 5px;
+}
+
+.productItem{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.productItemMedium{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.productItemSmall{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.formValueHeader{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(161, 161, 161);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formVaueText{
+    justify-content: center;
+    font-size: 15px;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #00bcd4;
+}
+
+.formValue{
+    text-align: center;
+}

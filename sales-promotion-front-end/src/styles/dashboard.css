@@ -1,0 +1,26 @@
+.dashContainer{
+    display: flex;
+    justify-content: space-between;
+    flex: 5;
+}
+
+.dashComponents{
+    display: flex;
+    flex-direction: column;
+    flex:4;
+}
+
+.widgetContainer{
+    display: flex;
+}
+
+.homeWidget{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 2px 20px 7px #eff2f2;
+    border-radius: 10px;
+    flex: 1;
+    height: 300px;
+}
